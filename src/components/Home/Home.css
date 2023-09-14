@@ -49,4 +49,7 @@ body {
 
 .cart {
   width: 34%;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
