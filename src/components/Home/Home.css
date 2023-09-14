@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/04/Avengers-Endgame-Poster-Cropped.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  box-sizing: border-box;
+}
+.card {
+  width: 250px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.photo {
+  border-radius: 50px;
+  width: 80px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-btn {
+  background: cyan;
+  border: none;
+  outline: none;
+}
+
+.card-container {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-cotainer {
+  display: flex;
+}
+
+.cart {
+  width: 34%;
+}
